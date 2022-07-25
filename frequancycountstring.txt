@@ -1,0 +1,14 @@
+Scanner sc = new Scanner(System.in);
+      String str = sc.next();
+      int d = sc.nextInt();
+      int count =0;
+      for(int i = 0; i<str.length(); ++i){                                        //  0 1     2 index value if i want to find index 1 value then we have to - x ansd x index value is 0 thats why 0 - here 
+        int t = str.charAt(i) -'0'; //here we -0 because string store char value and x, x+1, x+2 ... x = x+1 then how  conjacutive value .
+          if(t==d){
+            ++count;
+          }
+        }
+        System.out.print(count );
+      }
+
+      }
